@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="171a80dd-ac82-4be6-ba8a-933e6284b165" name="Default Changelist" comment="" />
+    <list default="true" id="171a80dd-ac82-4be6-ba8a-933e6284b165" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/controller/UserRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/db/EventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/db/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/security/CustomUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/security/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/EventServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/interfaces/DefaultDAOGenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/interfaces/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/PreDataInitializing.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/PreDataInitializing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/api/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/controller/EventRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/db/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/db/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/entity/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/entity/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/interfaces/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/interfaces/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-api/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +33,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -24,6 +49,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WkVIwPPg5eouLfcMxUv3kS0v5S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -32,7 +58,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/city-event-api/src/main/java/com/example" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -43,9 +69,14 @@
       <recent name="com.example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.entity" />
+      <recent name="com.example.service" />
+      <recent name="com.example.service.interfaces" />
+      <recent name="com.example.db" />
+      <recent name="com.example.controller" />
+      <recent name="com.example.api" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example." />
       <recent name="com.example.service.db" />
       <recent name="com.example.service.interfaces" />
     </key>
@@ -89,10 +120,29 @@
       <option name="presentableId" value="Default" />
       <updated>1579693503685</updated>
       <workItem from="1579693504987" duration="6236000" />
+      <workItem from="1579706239572" duration="81000" />
+      <workItem from="1579781543076" duration="817000" />
+      <workItem from="1579784258821" duration="1223000" />
+      <workItem from="1579865582676" duration="689000" />
+      <workItem from="1580126536917" duration="306000" />
+      <workItem from="1580221942888" duration="4619000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
