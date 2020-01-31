@@ -2,6 +2,7 @@ package com.example.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -23,4 +24,5 @@ public class Event implements Serializable {
         this.eventName = eventName;
         this.description = description;
     }
+
 }

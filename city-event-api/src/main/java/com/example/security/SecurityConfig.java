@@ -16,7 +16,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     private UserDetailsService userDetailsService;
 
-    public SecurityConfig(@Qualifier("customUserDetailsService") UserDetailsService userDetailsService) {
+    public SecurityConfig(UserDetailsService userDetailsService) {
         this.userDetailsService = userDetailsService;
     }
 
