@@ -1,13 +1,13 @@
 package com.example.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 @Entity
 @NoArgsConstructor
@@ -20,9 +20,19 @@ public class Event implements Serializable {
     private String eventName;
     private String description;
 
+    @ManyToOne
+    @JsonBackReference
+    private User user;
+
+    @ManyToMany
+    private List<Ticket> tickets;
+
+
     public Event(String eventName, String description) {
         this.eventName = eventName;
         this.description = description;
     }
+
+
 
 }

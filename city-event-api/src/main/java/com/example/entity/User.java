@@ -1,5 +1,7 @@
 package com.example.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
@@ -23,11 +25,20 @@ public class User implements Serializable {
     private boolean enabled;
     private boolean tokenExpired;
 
-    @ManyToMany
+    @ManyToMany(mappedBy = "users")
+    @JsonBackReference
     @JoinTable(name = "users_roles",
             joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
             inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
     private List<Role> roles;
+
+
+    @OneToMany(mappedBy = "user")
+    @JsonManagedReference
+    private List<Event> events;
+
+    @ManyToMany
+    private List<Ticket> tickets;
 
     public User(String email, String password, String firstName, String lastName, List<Role> roles) {
         this.email = email;

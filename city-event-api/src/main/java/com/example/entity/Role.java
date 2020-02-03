@@ -1,5 +1,7 @@
 package com.example.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
@@ -19,10 +21,12 @@ public class Role implements Serializable {
     private Long id;
 
     private String name;
-    @ManyToMany(mappedBy = "roles")
+    @ManyToMany
+    @JsonManagedReference
     private Collection<User> users;
 
     @ManyToMany
+    @JsonBackReference
     @JoinTable(name = "roles_privileges",
             joinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"),
             inverseJoinColumns = @JoinColumn(name = "privilege_id", referencedColumnName = "id"))
