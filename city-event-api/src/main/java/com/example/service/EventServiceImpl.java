@@ -44,4 +44,9 @@ public class EventServiceImpl implements EventService {
     public Optional<Event> getByID(Long id) {
         return this.eventRepository.findById(id);
     }
+
+    @Override
+    public void bookTicket(Long id) {
+//        TODO
+    }
 }
