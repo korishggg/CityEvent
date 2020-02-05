@@ -9,9 +9,11 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>city-event-api</module>
-        <module>reservation-service</module>
-        <module>config-service</module>
+<!--        <module>city-event-service</module>-->
+        <module>auth-service</module>
+
+<!--        <module>reservation-service</module>-->
+<!--        <module>config-service</module>-->
     </modules>
 
 </project>
