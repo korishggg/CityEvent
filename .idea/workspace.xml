@@ -1,93 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aefc18b8-98bd-40ef-aa15-2ca068f3c101" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/city-event-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="aefc18b8-98bd-40ef-aa15-2ca068f3c101" name="Default Changelist" comment="Practice with config service and other cloud stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/CityEventApiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/InitialDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/InitialDataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/RestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/RestConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/controller/EventRestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/controller/UserRestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/db/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/EventRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/db/PrivilegeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/db/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/db/TicketRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/db/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/entity/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/entity/Privilege.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/entity/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/entity/Ticket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/security/CustomUserDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/security/MyUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/security/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/EventServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/service/EventServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/PrivilegeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/RoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/TicketServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/interfaces/DefaultDAOGenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/service/interfaces/DefaultDAOGenericService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/interfaces/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/service/interfaces/EventService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/interfaces/PrivilegeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/interfaces/RoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/interfaces/TicketService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/java/com/example/service/interfaces/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/src/test/java/com/example/CityEventApiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/src/Form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/src/Table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-app/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/java/com/example/configservice/ConfigServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/test/java/com/example/configservice/ConfigServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/com/example/reservationservice/MessageRestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/com/example/reservationservice/Reservation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/com/example/reservationservice/ReservationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/com/example/reservationservice/ReservationServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/com/example/reservationservice/SampleDataCLR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/test/java/com/example/reservationservice/ReservationServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/city-event-service.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -192,8 +112,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580910085610</updated>
-      <workItem from="1580910086927" duration="5892000" />
+      <workItem from="1580910086927" duration="6396000" />
     </task>
+    <task id="LOCAL-00001" summary="Practice with config service and other cloud stuff">
+      <created>1580916468802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580916468802</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Practice with config service and other cloud stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice with config service and other cloud stuff" />
   </component>
 </project>
