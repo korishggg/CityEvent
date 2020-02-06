@@ -1,55 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aefc18b8-98bd-40ef-aa15-2ca068f3c101" name="Default Changelist" comment="Created very basic back end structure">
-      <change afterPath="$PROJECT_DIR$/authorization-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-service/src/main/java/com/example/authservice/AuthServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authorization-service/src/test/java/com/example/authservice/AuthServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/EventCategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/SavedInfoBucketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/TicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/EventCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/SavedInfoBucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="aefc18b8-98bd-40ef-aa15-2ca068f3c101" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/CityEventServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/CityEventServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/InitialDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/InitialDataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,11 +236,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
@@ -310,7 +258,7 @@
       <workItem from="1580910086927" duration="6396000" />
       <workItem from="1580981154934" duration="424000" />
       <workItem from="1580981626831" duration="5233000" />
-      <workItem from="1581003972972" duration="3702000" />
+      <workItem from="1581003972972" duration="3971000" />
     </task>
     <task id="LOCAL-00001" summary="Practice with config service and other cloud stuff">
       <created>1580916468802</created>
@@ -319,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580916468802</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created very basic back-end structure">
+      <created>1581010858537</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581010858537</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +296,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Practice with config service and other cloud stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice with config service and other cloud stuff" />
+    <MESSAGE value="Created very basic back-end structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created very basic back-end structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2000" y="205" key="#Project_Structure" timestamp="1580981547033">
@@ -360,49 +316,49 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2138" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580982118487" />
-    <state x="1956" y="142" key="CommitChangelistDialog2" timestamp="1581010193396">
+    <state x="1956" y="142" key="CommitChangelistDialog2" timestamp="1581010857981">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1956" y="142" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010193396" />
-    <state width="1294" height="304" key="GridCell.Tab.0.bottom" timestamp="1581010799926">
+    <state x="1956" y="142" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010857981" />
+    <state width="1294" height="304" key="GridCell.Tab.0.bottom" timestamp="1581010982072">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799926" />
+    <state width="1294" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010982072" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494134" />
-    <state width="1294" height="304" key="GridCell.Tab.0.center" timestamp="1581010799923">
+    <state width="1294" height="304" key="GridCell.Tab.0.center" timestamp="1581010982070">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799923" />
+    <state width="1294" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010982070" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494132" />
-    <state width="1294" height="304" key="GridCell.Tab.0.left" timestamp="1581010799917">
+    <state width="1294" height="304" key="GridCell.Tab.0.left" timestamp="1581010982069">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799917" />
+    <state width="1294" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010982069" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494131" />
-    <state width="1294" height="304" key="GridCell.Tab.0.right" timestamp="1581010799925">
+    <state width="1294" height="304" key="GridCell.Tab.0.right" timestamp="1581010982071">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799925" />
+    <state width="1294" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010982071" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494133" />
-    <state width="1294" height="304" key="GridCell.Tab.1.bottom" timestamp="1581010799931">
+    <state width="1294" height="304" key="GridCell.Tab.1.bottom" timestamp="1581010982076">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799931" />
+    <state width="1294" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010982076" />
     <state width="1878" height="304" key="GridCell.Tab.1.bottom/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494142" />
-    <state width="1294" height="304" key="GridCell.Tab.1.center" timestamp="1581010799928">
+    <state width="1294" height="304" key="GridCell.Tab.1.center" timestamp="1581010982074">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="304" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799928" />
+    <state width="1294" height="304" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010982074" />
     <state width="1878" height="304" key="GridCell.Tab.1.center/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494137" />
-    <state width="1294" height="304" key="GridCell.Tab.1.left" timestamp="1581010799927">
+    <state width="1294" height="304" key="GridCell.Tab.1.left" timestamp="1581010982073">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="304" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799927" />
+    <state width="1294" height="304" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010982073" />
     <state width="1878" height="304" key="GridCell.Tab.1.left/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494135" />
-    <state width="1294" height="304" key="GridCell.Tab.1.right" timestamp="1581010799929">
+    <state width="1294" height="304" key="GridCell.Tab.1.right" timestamp="1581010982075">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="304" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799929" />
+    <state width="1294" height="304" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010982075" />
     <state width="1878" height="304" key="GridCell.Tab.1.right/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494138" />
     <state x="1938" y="202" key="Maven.ArtifactSearchDialog" timestamp="1580981664873">
       <screen x="1440" y="0" width="1920" height="1080" />
@@ -412,6 +368,10 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1888" y="121" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580982178814" />
+    <state x="2000" y="280" key="Vcs.Push.Dialog.v2" timestamp="1581010873039">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2000" y="280" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010873039" />
     <state x="2097" y="338" key="git4idea.merge.GitPullDialog" timestamp="1580979057622">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
