@@ -1,22 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aefc18b8-98bd-40ef-aa15-2ca068f3c101" name="Default Changelist" comment="Practice with config service and other cloud stuff">
+    <list default="true" id="aefc18b8-98bd-40ef-aa15-2ca068f3c101" name="Default Changelist" comment="Created very basic back end structure">
+      <change afterPath="$PROJECT_DIR$/authorization-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization-service/src/main/java/com/example/authservice/AuthServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization-service/src/test/java/com/example/authservice/AuthServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/EventCategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/SavedInfoBucketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/EventCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/SavedInfoBucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/CityEventServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/CityEventServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/InitialDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/InitialDataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/Event.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/city-event-service.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="parent-module-city-event" />
+    <favorites_list name="parent-module-city-event">
+      <favorite_root url="file://$PROJECT_DIR$/auth-service" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/auth-service/src" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/auth-service/src/main" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/src/main/java" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/auth-service/src/main/java/com" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/auth-service/src/main/java/com/example" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice/AuthServiceApplication.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/src/main/resources" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/auth-service/src/main/resources/static" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <favorite_root url="file://$PROJECT_DIR$/auth-service/src/main/resources/templates" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <favorite_root url="file://$PROJECT_DIR$/auth-service/src/main/resources/application.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/auth-service/src/test" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/src/test/java" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/auth-service/src/test/java/com" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/auth-service/src/test/java/com/example" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/auth-service/src/test/java/com/example/authservice" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/auth-service/src/test/java/com/example/authservice/AuthServiceApplicationTests.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/auth-service/.mvn" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/auth-service/.mvn/wrapper" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/.mvn/wrapper/maven-wrapper.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/.mvn/wrapper/maven-wrapper.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/.mvn/wrapper/MavenWrapperDownloader.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/auth-service/mvnw" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/auth-service/target" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/auth-service/target/classes" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/target/classes/com" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/auth-service/target/classes/com/example" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/auth-service/target/classes/com/example/authservice" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/auth-service/target/classes/com/example/authservice/AuthServiceApplication.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/target/classes/application.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/auth-service/target/maven-status" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/compile" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/testCompile" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/auth-service/target/test-classes" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/target/test-classes/com" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/auth-service/target/test-classes/com/example" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/auth-service/target/test-classes/com/example/authservice" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/auth-service/target/test-classes/com/example/authservice/AuthServiceApplicationTests.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/auth-service/target/maven-archiver" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/target/maven-archiver/pom.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/auth-service/target/surefire-reports" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/target/surefire-reports/com.example.authservice.AuthServiceApplicationTests.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/target/surefire-reports/TEST-com.example.authservice.AuthServiceApplicationTests.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/auth-service/target/generated-sources" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/target/generated-sources/annotations" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/auth-service/target/generated-test-sources" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/auth-service/target/generated-test-sources/test-annotations" module="auth-service" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/auth-service/target/auth-service-0.0.1-SNAPSHOT.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/auth-service/target/auth-service-0.0.1-SNAPSHOT.jar.original" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/auth-service/HELP.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/auth-service/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/auth-service/mvnw.cmd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/auth-service/.gitignore" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/auth-service/auth-service.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,36 +174,61 @@
     </option>
   </component>
   <component name="ProjectId" id="1XOHBWReFUvsJ6T0l8DQ9cSLYWM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.cityeventservice.entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.cityeventservice.db" />
+      <recent name="com.example.cityeventservice.entity" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projects\CityEvent\city-event-service\src\main\java\com\example\cityeventservice" />
     </key>
   </component>
   <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.CityEventServiceApplication">
+    <configuration name="AuthServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="authorization-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.authservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="auth-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.authservice.AuthServiceApplication" />
@@ -101,6 +264,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AuthServiceApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -113,6 +308,9 @@
       <option name="presentableId" value="Default" />
       <updated>1580910085610</updated>
       <workItem from="1580910086927" duration="6396000" />
+      <workItem from="1580981154934" duration="424000" />
+      <workItem from="1580981626831" duration="5233000" />
+      <workItem from="1581003972972" duration="3702000" />
     </task>
     <task id="LOCAL-00001" summary="Practice with config service and other cloud stuff">
       <created>1580916468802</created>
@@ -132,14 +330,99 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Practice with config service and other cloud stuff" />
     <option name="LAST_COMMIT_MESSAGE" value="Practice with config service and other cloud stuff" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2000" y="205" key="#Project_Structure" timestamp="1580981547033">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2000" y="205" key="#Project_Structure/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580981547033" />
+    <state x="2213" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1581009504891">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2213" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581009504891" />
+    <state x="2252" y="447" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580982136970">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2252" y="447" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580982136970" />
+    <state x="2138" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580982118487">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2138" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580982118487" />
+    <state x="1956" y="142" key="CommitChangelistDialog2" timestamp="1581010193396">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1956" y="142" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010193396" />
+    <state width="1294" height="304" key="GridCell.Tab.0.bottom" timestamp="1581010799926">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799926" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494134" />
+    <state width="1294" height="304" key="GridCell.Tab.0.center" timestamp="1581010799923">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799923" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494132" />
+    <state width="1294" height="304" key="GridCell.Tab.0.left" timestamp="1581010799917">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799917" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494131" />
+    <state width="1294" height="304" key="GridCell.Tab.0.right" timestamp="1581010799925">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799925" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494133" />
+    <state width="1294" height="304" key="GridCell.Tab.1.bottom" timestamp="1581010799931">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799931" />
+    <state width="1878" height="304" key="GridCell.Tab.1.bottom/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494142" />
+    <state width="1294" height="304" key="GridCell.Tab.1.center" timestamp="1581010799928">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="304" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799928" />
+    <state width="1878" height="304" key="GridCell.Tab.1.center/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494137" />
+    <state width="1294" height="304" key="GridCell.Tab.1.left" timestamp="1581010799927">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="304" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799927" />
+    <state width="1878" height="304" key="GridCell.Tab.1.left/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494135" />
+    <state width="1294" height="304" key="GridCell.Tab.1.right" timestamp="1581010799929">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="304" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010799929" />
+    <state width="1878" height="304" key="GridCell.Tab.1.right/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494138" />
+    <state x="1938" y="202" key="Maven.ArtifactSearchDialog" timestamp="1580981664873">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1938" y="202" key="Maven.ArtifactSearchDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580981664873" />
+    <state x="1888" y="121" key="SettingsEditor" timestamp="1580982178814">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1888" y="121" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580982178814" />
+    <state x="2097" y="338" key="git4idea.merge.GitPullDialog" timestamp="1580979057622">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2097" y="338" key="git4idea.merge.GitPullDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979057622" />
+    <state x="1829" y="244" key="new project wizard" timestamp="1580982496860">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1829" y="244" key="new project wizard/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580982496860" />
+    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1581010293176">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581010293176" />
   </component>
 </project>

@@ -9,11 +9,10 @@
     <packaging>pom</packaging>
 
     <modules>
-<!--        <module>city-event-service</module>-->
-        <module>auth-service</module>
-
-<!--        <module>reservation-service</module>-->
-<!--        <module>config-service</module>-->
+        <module>authorization-service</module>
+        <module>city-event-service</module>
+        <module>config-server</module>
+        <module>eureka-service</module>
     </modules>
 
 </project>

@@ -1,5 +1,6 @@
 package com.example.cityeventservice;
 
+import com.example.cityeventservice.db.UserRepository;
 import com.example.cityeventservice.entity.Event;
 import com.example.cityeventservice.service.interfaces.EventService;
 import org.springframework.context.ApplicationListener;
@@ -8,7 +9,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 
 
@@ -16,14 +16,18 @@ import java.util.List;
 public class InitialDataLoader implements ApplicationListener<ContextRefreshedEvent> {
 
     private EventService eventService;
+    private UserRepository userRepository;
 
-    public InitialDataLoader(EventService eventService) {
+    public InitialDataLoader(EventService eventService, UserRepository userRepository) {
         this.eventService = eventService;
+        this.userRepository = userRepository;
     }
 
     @Override
     @Transactional
     public void onApplicationEvent(ContextRefreshedEvent event) {
+
+
 
         Event event1 = new Event("eventName 1" , "some description 1");
         Event event2 = new Event("eventName 2" , "some description 2");
@@ -32,6 +36,8 @@ public class InitialDataLoader implements ApplicationListener<ContextRefreshedEv
 
         events.forEach(targetEvent -> { this.eventService.save(targetEvent); } );
         this.eventService.getAll().forEach(System.out::println);
+
+
 
     }
 
