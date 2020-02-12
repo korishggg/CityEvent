@@ -1,0 +1,3 @@
+message: "I AM IN THE DEFAULT"
+server:
+  port: ${PORT:8081}

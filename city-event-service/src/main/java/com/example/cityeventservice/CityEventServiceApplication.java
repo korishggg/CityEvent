@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-//@EnableDiscoveryClient
+@EnableDiscoveryClient
 @SpringBootApplication
 public class CityEventServiceApplication {
 
@@ -19,15 +19,15 @@ public class CityEventServiceApplication {
 
 }
 
-//@RefreshScope
-//@RestController
-//class MessageRestRepository {
-//
-//    @Value("${message}")
-//    private String message;
-//
-//    @RequestMapping(method = RequestMethod.GET, path = "/message")
-//    public String message(){
-//        return this.message;
-//    }
-//}
+@RefreshScope
+@RestController
+class MessageRestRepository {
+
+    @Value("${message}")
+    private String message;
+
+    @RequestMapping(method = RequestMethod.GET, path = "/message")
+    public String message(){
+        return this.message;
+    }
+}

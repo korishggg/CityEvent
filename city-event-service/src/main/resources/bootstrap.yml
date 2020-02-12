@@ -4,8 +4,15 @@
 #spring.datasource.username=sa
 #spring.datasource.password=sa
 
-spring.cloud.config.uri=http://localhost:8888
-spring.application.name=city-event-service
+spring:
+  application:
+    name: city-event-service
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      uri: http://localhost:8888
 
 
 #spring.data.rest.base-path=/api
