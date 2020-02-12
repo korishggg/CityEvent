@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aefc18b8-98bd-40ef-aa15-2ca068f3c101" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/cityEventService/city-event-service-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/cityEventService/city-event-service-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/cityEventService/city-event-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/src/AppNavbar/AppNavbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-client/src/AppNavbar/AppNavbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/CityEventServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/CityEventServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/cityEventService/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-client/src/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-client/src/Person/Person.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +119,7 @@
       <list>
         <option value="Class" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -155,13 +153,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/config-server/src/main/resources/config/cityEventService" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.cityeventservice.entity" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config-server/src/main/resources/config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projects\CityEvent\config-server\src\main\resources\config\cityEventService" />
@@ -172,8 +171,8 @@
       <recent name="com.example.cityeventservice.db" />
       <recent name="com.example.cityeventservice.entity" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/config-server/src/main/resources/config" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.cityeventservice.entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -181,16 +180,6 @@
       <set>
         <option value="SpringBootApplicationConfigurationType" />
       </set>
-    </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.CityEventServiceApplication">
@@ -222,23 +211,15 @@
     </list>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@976964e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@976964e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@94ec44d3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -310,10 +291,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="some practice with react" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2000" y="205" key="#Project_Structure" timestamp="1581496025694">
+    <state x="2000" y="205" key="#Project_Structure" timestamp="1581513662984">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2000" y="205" key="#Project_Structure/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581496025694" />
+    <state x="2000" y="205" key="#Project_Structure/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581513662984" />
     <state x="2213" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1581009504891">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
@@ -407,9 +388,10 @@
     <state x="1969" y="339" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581495391997" />
     <state x="397" y="283" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581496617888" />
     <state x="397" y="271" key="com.intellij.ide.util.TipDialog/0.23.1440.790@0.23.1440.790" timestamp="1581446823521" />
-    <state x="493" y="282" key="git4idea.merge.GitPullDialog" timestamp="1581446918289">
+    <state x="493" y="282" key="git4idea.merge.GitPullDialog" timestamp="1581511690229">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="493" y="282" key="git4idea.merge.GitPullDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1581511690229" />
     <state x="2097" y="338" key="git4idea.merge.GitPullDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581344060379" />
     <state x="493" y="282" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1581446918289" />
     <state x="1829" y="244" key="new project wizard" timestamp="1580982496860">
