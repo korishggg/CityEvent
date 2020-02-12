@@ -9,7 +9,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>authorization-service</module>
         <module>city-event-service</module>
         <module>config-server</module>
         <module>eureka-service</module>
