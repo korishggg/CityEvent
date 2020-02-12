@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="authorization-service" />
         <module name="config-server" />
-        <module name="auth-service" />
         <module name="eureka-service" />
         <module name="city-event-service" />
       </profile>
