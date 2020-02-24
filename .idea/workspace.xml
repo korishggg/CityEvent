@@ -1,54 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aefc18b8-98bd-40ef-aa15-2ca068f3c101" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/components/DefaultComponents/TopLine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/components/EventsComponents/Events/Event/Event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/components/EventsComponents/Events/Events.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/components/EventsComponents/Events/Events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/components/TopLineComponents/TopLine.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/components/TopLineComponents/TopLine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/containers/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-client/src/services/EventAPIService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/city-event-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/city-event-service-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/city-event-service-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/city-event-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/example/securityservice/SecurityServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/example/securityservice/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/example/securityservice/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-service/src/test/java/com/example/securityservice/SecurityServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="aefc18b8-98bd-40ef-aa15-2ca068f3c101" name="Default Changelist" comment="changed configs">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-client/src/containers/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-client/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-client/src/AppNavbar/AppNavbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-client/src/AppNavbar/AppNavbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-client/src/Person/Person.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/CityEventServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/CityEventServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/city-event-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/city-event-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/city-event-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/cityEventService/city-event-service-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-client/src/commonElements/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/cityEventService/city-event-service-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-client/src/components/DefaultComponents/TopLine.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/cityEventService/city-event-service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-client/src/components/EventsComponents/Events/Event/Event.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +138,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-repo" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -195,7 +154,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XOHBWReFUvsJ6T0l8DQ9cSLYWM" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -236,14 +195,14 @@
       <recent name="com.example.cityeventservice.entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/config-repo" />
       <recent name="$PROJECT_DIR$/city-event-client/src/components/EventsComponents/Events" />
       <recent name="$PROJECT_DIR$/city-event-client/src/components/TopLine" />
       <recent name="$PROJECT_DIR$/city-event-client/src/containers" />
-      <recent name="$PROJECT_DIR$/dockerpracticer" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.db: Compose Deployment">
+  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
     <configuration name="CityEventServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="city-event-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cityeventservice.CityEventServiceApplication" />
@@ -343,7 +302,7 @@
       <workItem from="1582286872802" duration="4311000" />
       <workItem from="1582299666978" duration="2381000" />
       <workItem from="1582532332270" duration="10584000" />
-      <workItem from="1582545442418" duration="1983000" />
+      <workItem from="1582545442418" duration="3270000" />
     </task>
     <task id="LOCAL-00001" summary="Practice with config service and other cloud stuff">
       <created>1580916468802</created>
@@ -373,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581516793922</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changed configs">
+      <created>1582553000744</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582553000744</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,13 +364,14 @@
     <MESSAGE value="Created very basic back-end structure" />
     <MESSAGE value="some practice with react" />
     <MESSAGE value="added top_line menu | REACT |" />
-    <option name="LAST_COMMIT_MESSAGE" value="added top_line menu | REACT |" />
+    <MESSAGE value="changed configs" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed configs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2000" y="205" key="#Project_Structure" timestamp="1582286927813">
+    <state x="2000" y="205" key="#Project_Structure" timestamp="1582553130046">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2000" y="205" key="#Project_Structure/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582286927813" />
+    <state x="2000" y="205" key="#Project_Structure/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582553130046" />
     <state x="2129" y="350" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582296082324">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
@@ -426,81 +393,90 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2117" y="266" key="#docker-compose.yml.db:_Compose_Deployment/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582545885241" />
-    <state x="1956" y="142" key="CommitChangelistDialog2" timestamp="1582552977654">
+    <state x="1956" y="142" key="CommitChangelistDialog2" timestamp="1582554335604">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1956" y="142" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582552977654" />
+    <state x="1956" y="142" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554335604" />
     <state x="387" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581496641562" />
-    <state width="1878" height="376" key="GridCell.Tab.0.bottom" timestamp="1582544694449">
+    <state x="1956" y="142" key="CommitChangelistDialog2/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554224319" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom" timestamp="1582554371205">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841911" />
-    <state width="1878" height="376" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582544694449" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554371205" />
     <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582302084514" />
     <state width="1294" height="303" key="GridCell.Tab.0.bottom/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299433029" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046835" />
     <state width="958" height="244" key="GridCell.Tab.0.bottom/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762392" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494134" />
-    <state width="1878" height="376" key="GridCell.Tab.0.center" timestamp="1582544694444">
+    <state width="1878" height="376" key="GridCell.Tab.0.center" timestamp="1582554371204">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841908" />
-    <state width="1878" height="376" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582544694444" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554371204" />
     <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582302084513" />
     <state width="1294" height="303" key="GridCell.Tab.0.center/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299432999" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046833" />
     <state width="958" height="244" key="GridCell.Tab.0.center/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762391" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494132" />
-    <state width="1878" height="376" key="GridCell.Tab.0.left" timestamp="1582544694443">
+    <state width="1878" height="376" key="GridCell.Tab.0.left" timestamp="1582554371201">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841907" />
-    <state width="1878" height="376" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582544694443" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554371201" />
     <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582302084512" />
     <state width="1294" height="303" key="GridCell.Tab.0.left/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299432976" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046832" />
     <state width="958" height="244" key="GridCell.Tab.0.left/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762390" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494131" />
-    <state width="1878" height="376" key="GridCell.Tab.0.right" timestamp="1582544694446">
+    <state width="1878" height="376" key="GridCell.Tab.0.right" timestamp="1582554371204">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841909" />
-    <state width="1878" height="376" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582544694446" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554371204" />
     <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582302084513" />
     <state width="1294" height="303" key="GridCell.Tab.0.right/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299433002" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046834" />
     <state width="958" height="244" key="GridCell.Tab.0.right/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762392" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494133" />
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1582544694453">
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1582554371210">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841915" />
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582544694453" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554371210" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582302084517" />
     <state width="1294" height="303" key="GridCell.Tab.1.bottom/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299433070" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046839" />
     <state width="958" height="244" key="GridCell.Tab.1.bottom/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762394" />
     <state width="1878" height="304" key="GridCell.Tab.1.bottom/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494142" />
-    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1582544694451">
+    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1582554371208">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841913" />
-    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582544694451" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554371208" />
     <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582302084516" />
     <state width="1294" height="303" key="GridCell.Tab.1.center/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299433048" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046837" />
     <state width="958" height="244" key="GridCell.Tab.1.center/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762393" />
     <state width="1878" height="304" key="GridCell.Tab.1.center/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494137" />
-    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1582544694450">
+    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1582554371206">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841912" />
-    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582544694450" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554371206" />
     <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582302084515" />
     <state width="1294" height="303" key="GridCell.Tab.1.left/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299433041" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046836" />
     <state width="958" height="244" key="GridCell.Tab.1.left/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762393" />
     <state width="1878" height="304" key="GridCell.Tab.1.left/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494135" />
-    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1582544694452">
+    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1582554371209">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841914" />
-    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582544694452" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554371209" />
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582302084516" />
     <state width="1294" height="303" key="GridCell.Tab.1.right/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299433058" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046838" />
     <state width="958" height="244" key="GridCell.Tab.1.right/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762393" />
     <state width="1878" height="304" key="GridCell.Tab.1.right/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494138" />
     <state x="1938" y="202" key="Maven.ArtifactSearchDialog" timestamp="1581594293797">
@@ -511,10 +487,10 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1888" y="121" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580982178814" />
-    <state x="2000" y="280" key="Vcs.Push.Dialog.v2" timestamp="1581496133953">
+    <state x="2000" y="280" key="Vcs.Push.Dialog.v2" timestamp="1582554387933">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2000" y="280" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581496133953" />
+    <state x="2000" y="280" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554387933" />
     <state x="1969" y="339" key="com.intellij.ide.util.TipDialog" timestamp="1582545448504">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
