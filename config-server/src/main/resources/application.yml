@@ -10,8 +10,7 @@ spring:
         config:
             server:
                 git:
-                    uri: ssh://localhost/config-repo
-                    clone-on-start: true
+                    uri: https://github.com/korishggg/CityEventConfig
+                    search-paths: config-repo
                 encrypt:
                     enabled: false
-
