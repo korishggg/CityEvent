@@ -9,9 +9,11 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>security-service</module>
         <module>city-event-service</module>
         <module>config-server</module>
         <module>eureka-service</module>
+
     </modules>
 
 </project>

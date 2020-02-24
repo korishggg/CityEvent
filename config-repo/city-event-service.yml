@@ -1,0 +1,3 @@
+message: "City event has started"
+server:
+  port: ${PORT:8083}

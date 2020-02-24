@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: 12345
+      POSTGRES_USER: postgres
+      POSTGRES_DB: city_event_app
+    ports:
+    - 3306:3306
+  jenkins:
+  config-server:
+  discovery-service:
+  city-event-service:
+  city-event-client:

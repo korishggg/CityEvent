@@ -1,0 +1,18 @@
+.TopLineComponent {
+    background-color: #17a2b8;
+    padding: 25px 0;
+    margin: 0;
+    font-size: 18px;
+}
+.Menu {
+    padding: 0;
+    margin: 0;
+}
+.Menu .Menu_Item{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+    padding: 0;
+}
