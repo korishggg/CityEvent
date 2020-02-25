@@ -4,11 +4,9 @@ package com.example.cityeventservice.entity;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
+import org.hibernate.annotations.NaturalId;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
@@ -19,8 +17,15 @@ public class Role {
     @GeneratedValue
     private Long id;
 
-    private String roleName;
+    @Enumerated(EnumType.STRING)
+    @NaturalId
+    @Column(length = 60)
+    private RoleName name;
 
-    @OneToMany(mappedBy = "role")
+    @ManyToMany(mappedBy = "roles")
     private List<User> users;
+
+    public Role(RoleName roleName) {
+        this.name = roleName;
+    }
 }

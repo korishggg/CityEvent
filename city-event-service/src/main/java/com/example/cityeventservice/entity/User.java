@@ -11,13 +11,20 @@ import java.util.List;
 
 @Entity
 @Data
-@RequiredArgsConstructor
+@NoArgsConstructor
+//@RequiredArgsConstructor
 public class User {
     @Id
     @GeneratedValue
     private Long id;
 
+    private String firstName;
+
+    private String lastName;
+
     private String userName;
+
+    private String email;
 
     private String password;
 
@@ -36,7 +43,13 @@ public class User {
     @ManyToMany
     private List<Ticket> tickets;
 
-    @ManyToOne
-    private Role role;
+    @ManyToMany
+    private List<Role> roles;
 
+    public User(String userName, String email, String password) {
+        this.userName = userName;
+        this.email = email;
+        this.password = password;
+        this.isActive = true;
+    }
 }

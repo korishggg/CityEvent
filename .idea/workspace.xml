@@ -2,12 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aefc18b8-98bd-40ef-aa15-2ca068f3c101" name="Default Changelist" comment="changed configs">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/RoleName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/exeception/AppException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/exeception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/exeception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/payload/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/payload/JwtAuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/payload/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/payload/SignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/security/CurrentUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/security/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/security/JwtTokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/security/UserPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-repo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-repo/city-event-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/city-event-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/CityEventServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/CityEventServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/InitialDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/InitialDataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/db/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city-event-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/city-event-service-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/city-event-service-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/city-event-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-client/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/example/configserver/ConfigServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/com/example/configserver/ConfigServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/src/main/java/com/example/eurekaservice/EurekaServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/src/test/java/com/example/eurekaservice/EurekaServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/java/com/example/securityservice/SecurityServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/java/com/example/securityservice/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/java/com/example/securityservice/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/test/java/com/example/securityservice/SecurityServiceApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,14 +196,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-repo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JsFlowSettings">
@@ -173,6 +238,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/city-event-service" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -203,7 +269,7 @@
       <recent name="$PROJECT_DIR$/city-event-client/src/containers" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.CityEventServiceApplication">
     <configuration name="CityEventServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="city-event-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cityeventservice.CityEventServiceApplication" />
@@ -253,12 +319,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.EurekaServiceApplication" />
       <item itemvalue="Spring Boot.DockerpracticerApplication" />
       <item itemvalue="Spring Boot.SecurityServiceApplication" />
       <item itemvalue="Spring Boot.CityEventServiceApplication" />
-      <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
@@ -303,7 +369,8 @@
       <workItem from="1582286872802" duration="4311000" />
       <workItem from="1582299666978" duration="2381000" />
       <workItem from="1582532332270" duration="10584000" />
-      <workItem from="1582545442418" duration="3270000" />
+      <workItem from="1582545442418" duration="5824000" />
+      <workItem from="1582621038997" duration="6320000" />
     </task>
     <task id="LOCAL-00001" summary="Practice with config service and other cloud stuff">
       <created>1580916468802</created>
@@ -340,7 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582553000744</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changed configs">
+      <created>1582554332009</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582554332009</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changed configs">
+      <created>1582554435153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582554435154</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,10 +462,11 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2129" y="350" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582296082324" />
-    <state x="2213" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1582298974148">
+    <state x="2213" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1582629083041">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2213" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582298974148" />
+    <state x="2213" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629083041" />
+    <state x="580" y="219" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582625619541" />
     <state x="2252" y="447" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580982136970">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
@@ -398,104 +480,137 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2117" y="266" key="#docker-compose.yml.db:_Compose_Deployment/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582545885241" />
-    <state x="1956" y="142" key="CommitChangelistDialog2" timestamp="1582554418510">
+    <state x="1956" y="142" key="CommitChangelistDialog2" timestamp="1582554435024">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1956" y="142" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554418510" />
+    <state x="1956" y="142" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554435024" />
     <state x="387" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581496641562" />
     <state x="1956" y="142" key="CommitChangelistDialog2/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554224319" />
-    <state width="1878" height="376" key="GridCell.Tab.0.bottom" timestamp="1582554418993">
+    <state width="1878" height="430" key="GridCell.Tab.0.bottom" timestamp="1582629182044">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841911" />
-    <state width="1878" height="376" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554418993" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582302084514" />
+    <state width="1398" height="376" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582558438529" />
+    <state width="1878" height="430" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629182044" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582627231087" />
     <state width="1294" height="303" key="GridCell.Tab.0.bottom/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299433029" />
     <state width="1878" height="376" key="GridCell.Tab.0.bottom/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046835" />
+    <state width="1398" height="320" key="GridCell.Tab.0.bottom/0.23.1440.785@0.23.1440.785" timestamp="1582626533016" />
     <state width="958" height="244" key="GridCell.Tab.0.bottom/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762392" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494134" />
-    <state width="1878" height="376" key="GridCell.Tab.0.center" timestamp="1582554418992">
+    <state width="1878" height="430" key="GridCell.Tab.0.center" timestamp="1582629182041">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841908" />
-    <state width="1878" height="376" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554418992" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582302084513" />
+    <state width="1398" height="376" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582558438525" />
+    <state width="1878" height="430" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629182041" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582627231084" />
     <state width="1294" height="303" key="GridCell.Tab.0.center/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299432999" />
     <state width="1878" height="376" key="GridCell.Tab.0.center/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046833" />
+    <state width="1398" height="320" key="GridCell.Tab.0.center/0.23.1440.785@0.23.1440.785" timestamp="1582626533014" />
     <state width="958" height="244" key="GridCell.Tab.0.center/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762391" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494132" />
-    <state width="1878" height="376" key="GridCell.Tab.0.left" timestamp="1582554418991">
+    <state width="1878" height="430" key="GridCell.Tab.0.left" timestamp="1582629182040">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841907" />
-    <state width="1878" height="376" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554418991" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582302084512" />
+    <state width="1398" height="376" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582558438524" />
+    <state width="1878" height="430" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629182040" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582627231084" />
     <state width="1294" height="303" key="GridCell.Tab.0.left/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299432976" />
     <state width="1878" height="376" key="GridCell.Tab.0.left/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046832" />
+    <state width="1398" height="320" key="GridCell.Tab.0.left/0.23.1440.785@0.23.1440.785" timestamp="1582626533012" />
     <state width="958" height="244" key="GridCell.Tab.0.left/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762390" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494131" />
-    <state width="1878" height="376" key="GridCell.Tab.0.right" timestamp="1582554418993">
+    <state width="1878" height="430" key="GridCell.Tab.0.right" timestamp="1582629182042">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841909" />
-    <state width="1878" height="376" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554418993" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582302084513" />
+    <state width="1398" height="376" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582558438527" />
+    <state width="1878" height="430" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629182042" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582627231086" />
     <state width="1294" height="303" key="GridCell.Tab.0.right/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299433002" />
     <state width="1878" height="376" key="GridCell.Tab.0.right/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046834" />
+    <state width="1398" height="320" key="GridCell.Tab.0.right/0.23.1440.785@0.23.1440.785" timestamp="1582626533015" />
     <state width="958" height="244" key="GridCell.Tab.0.right/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762392" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494133" />
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1582554418997">
+    <state width="1878" height="430" key="GridCell.Tab.1.bottom" timestamp="1582629181834">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841915" />
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554418997" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582302084517" />
-    <state width="1294" height="303" key="GridCell.Tab.1.bottom/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299433070" />
+    <state width="1398" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582558438533" />
+    <state width="1878" height="430" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629181834" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582627230890" />
+    <state width="1878" height="430" key="GridCell.Tab.1.bottom/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629118182" />
     <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046839" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.785@0.23.1440.785" timestamp="1582626995807" />
     <state width="958" height="244" key="GridCell.Tab.1.bottom/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762394" />
     <state width="1878" height="304" key="GridCell.Tab.1.bottom/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494142" />
-    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1582554418996">
+    <state width="1878" height="430" key="GridCell.Tab.1.center" timestamp="1582629181831">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841913" />
-    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554418996" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582302084516" />
-    <state width="1294" height="303" key="GridCell.Tab.1.center/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299433048" />
+    <state width="1398" height="376" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582558438531" />
+    <state width="1878" height="430" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629181831" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582627230889" />
+    <state width="1878" height="430" key="GridCell.Tab.1.center/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629118180" />
     <state width="1878" height="376" key="GridCell.Tab.1.center/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046837" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.785@0.23.1440.785" timestamp="1582626995805" />
     <state width="958" height="244" key="GridCell.Tab.1.center/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762393" />
     <state width="1878" height="304" key="GridCell.Tab.1.center/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494137" />
-    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1582554418995">
+    <state width="1878" height="430" key="GridCell.Tab.1.left" timestamp="1582629181829">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841912" />
-    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554418995" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582302084515" />
-    <state width="1294" height="303" key="GridCell.Tab.1.left/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299433041" />
+    <state width="1398" height="376" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582558438530" />
+    <state width="1878" height="430" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629181829" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582627230888" />
+    <state width="1878" height="430" key="GridCell.Tab.1.left/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629118177" />
     <state width="1878" height="376" key="GridCell.Tab.1.left/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046836" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.785@0.23.1440.785" timestamp="1582626995805" />
     <state width="958" height="244" key="GridCell.Tab.1.left/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762393" />
     <state width="1878" height="304" key="GridCell.Tab.1.left/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494135" />
-    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1582554418997">
+    <state width="1878" height="430" key="GridCell.Tab.1.right" timestamp="1582629181832">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582532841914" />
-    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554418997" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582302084516" />
-    <state width="1294" height="303" key="GridCell.Tab.1.right/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582299433058" />
+    <state width="1398" height="376" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582558438532" />
+    <state width="1878" height="430" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629181832" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582627230889" />
+    <state width="1878" height="430" key="GridCell.Tab.1.right/0.23.1440.785/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629118181" />
     <state width="1878" height="376" key="GridCell.Tab.1.right/0.23.1440.785/1440.23.1920.1057@1440.23.1920.1057" timestamp="1582554046838" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.785@0.23.1440.785" timestamp="1582626995806" />
     <state width="958" height="244" key="GridCell.Tab.1.right/0.23.1440.797/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581494762393" />
     <state width="1878" height="304" key="GridCell.Tab.1.right/0.23.1440.803/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580979494138" />
-    <state x="1938" y="202" key="Maven.ArtifactSearchDialog" timestamp="1581594293797">
+    <state width="1878" height="430" key="GridCell.Tab.2.bottom" timestamp="1582629181839">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="430" key="GridCell.Tab.2.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629181839" />
+    <state width="1398" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582627230893" />
+    <state width="1878" height="430" key="GridCell.Tab.2.center" timestamp="1582629181836">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="430" key="GridCell.Tab.2.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629181836" />
+    <state width="1398" height="303" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1582627230892" />
+    <state width="1878" height="430" key="GridCell.Tab.2.left" timestamp="1582629181835">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="430" key="GridCell.Tab.2.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629181835" />
+    <state width="1398" height="303" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1582627230891" />
+    <state width="1878" height="430" key="GridCell.Tab.2.right" timestamp="1582629181838">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="430" key="GridCell.Tab.2.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582629181838" />
+    <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1582627230893" />
+    <state x="374" y="168" key="Maven.ArtifactSearchDialog" timestamp="1582621902194">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
     <state x="1938" y="202" key="Maven.ArtifactSearchDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581594293797" />
+    <state x="374" y="168" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1582621902194" />
     <state x="1888" y="121" key="SettingsEditor" timestamp="1580982178814">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1888" y="121" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1580982178814" />
-    <state x="2000" y="280" key="Vcs.Push.Dialog.v2" timestamp="1582554387933">
+    <state x="2000" y="280" key="Vcs.Push.Dialog.v2" timestamp="1582554443488">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2000" y="280" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554387933" />
+    <state x="2000" y="280" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582554443488" />
+    <state x="503" y="235" key="chooseDestDirectoryDialog" timestamp="1582625004345">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="503" y="235" key="chooseDestDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1582625004345" />
     <state x="1969" y="339" key="com.intellij.ide.util.TipDialog" timestamp="1582545448504">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
@@ -503,6 +618,14 @@
     <state x="1969" y="339" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582545448504" />
     <state x="397" y="283" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582299666608" />
     <state x="397" y="271" key="com.intellij.ide.util.TipDialog/0.23.1440.790@0.23.1440.790" timestamp="1581446823521" />
+    <state x="2205" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582628957689">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2205" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582628957689" />
+    <state x="1864" y="283" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582628271037">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1864" y="283" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582628271037" />
     <state x="493" y="282" key="git4idea.merge.GitPullDialog" timestamp="1581511690229">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -513,10 +636,48 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1829" y="244" key="new project wizard/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582295658306" />
+    <state x="482" y="73" key="refactoring.ChangeSignatureDialog" timestamp="1582625967670">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="482" y="73" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1582625967670" />
     <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1582300428529">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1582300428529" />
     <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581517134286" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/exeception/AppException.java</url>
+          <line>11</line>
+          <properties class="com.example.cityeventservice.exeception.AppException" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/controller/AuthController.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/controller/AuthController.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/controller/AuthController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/city-event-service/src/main/java/com/example/cityeventservice/security/CustomUserDetailsService.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
