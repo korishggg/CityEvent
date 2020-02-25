@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const EVENT_API_BASE_URL = 'http://localhost:8083/events';
+const EVENT_API_BASE_URL = 'http://localhost:8080/events';
 
 class EventAPIService {
 
@@ -23,7 +23,6 @@ class EventAPIService {
     editEvent(event) {
         return axios.put(EVENT_API_BASE_URL + '/' + event.id, event);
     }
-
 }
 
 export default new EventAPIService();

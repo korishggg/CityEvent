@@ -1,9 +1,10 @@
 package com.example.cityeventservice.controller;
 
-import com.example.cityeventservice.db.UserRepository;
 import com.example.cityeventservice.entity.User;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.example.cityeventservice.payload.ApiResponse;
+import com.example.cityeventservice.service.interfaces.UserService;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,17 +12,29 @@ import java.util.List;
 @RestController("api/users/")
 public class UserController {
 
-    private UserRepository userRepository;
+    private UserService userService;
 
-
-    public UserController(UserRepository userRepository) {
-        this.userRepository = userRepository;
+    public UserController(UserService userService) {
+        this.userService = userService;
     }
 
     @GetMapping
-    public List<User> getAllUser(){
+    public List<User> listUsers(){
         List <User> users = new ArrayList<>();
-        this.userRepository.findAll().forEach(user -> users.add(user));
+        this.userService.getAll().forEach(user -> users.add(user));
         return users;
     }
+
+    @PutMapping
+    public User updateUser(User user){
+        return this.userService.update(user);
+    }
+
+    @GetMapping
+    @RequestMapping
+    public User getUser(@PathVariable Long id){
+        return this.userService.getById(id).orElseThrow( () -> new RuntimeException());
+    }
+
+
 }

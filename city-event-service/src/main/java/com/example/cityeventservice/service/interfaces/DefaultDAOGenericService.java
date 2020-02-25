@@ -9,5 +9,5 @@ public interface DefaultDAOGenericService<T extends Serializable> {
     void delete(T entity);
     T update(T entity);
     List<T> getAll();
-    Optional<T> getByID(Long id);
+    Optional<T> getById(Long id);
 }

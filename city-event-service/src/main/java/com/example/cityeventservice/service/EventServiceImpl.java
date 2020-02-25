@@ -41,7 +41,7 @@ public class EventServiceImpl implements EventService {
     }
 
     @Override
-    public Optional<Event> getByID(Long id) {
+    public Optional<Event> getById(Long id) {
         return this.eventRepository.findById(id);
     }
 }

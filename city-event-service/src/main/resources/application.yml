@@ -1,25 +1,10 @@
+#app:
+#  jwtSecret: JWTSuperSecretKey
+#  jwtExpirationInMs: 604800000
 #
-#server.port=8082
-#spring.datasource.url=jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
-#spring.datasource.username=sa
-#spring.datasource.password=sa
-app:
-  jwtSecret: JWTSuperSecretKey
-  jwtExpirationInMs: 604800000
-
-spring:
-  application:
-    name: city-event-service
-server:
-  port: 8083
-
-
-#  profiles:
-#    active:
-#      default
-#  cloud:
-#    config:
-#      uri: http://localhost:8888
-
-
-#spring.data.rest.base-path=/api
+#spring:
+#  application:
+#    name: city-event-service
+#server:
+#  port: 8083
+#

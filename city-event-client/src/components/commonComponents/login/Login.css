@@ -1,0 +1,8 @@
+.LoginComponent{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.LoginComponent h2 {
+    margin-bottom: 20px;
+}

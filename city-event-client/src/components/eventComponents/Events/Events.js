@@ -1,7 +1,7 @@
 import React from "react";
 import {Component} from "react";
-import './Events.css'
 import EventAPIService from "../../../services/EventAPIService";
+import './Events.css'
 import Event from "./Event/Event";
 
 
@@ -32,10 +32,8 @@ class Events extends Component{
     render(){
 
         let events = null;
-
         if (this.state.isEventsLoaded){
             events = this.state.events.map((event, index )=> {
-                console.log(event)
                 return <Event key={index} eventData={event}/>
             })
         }else {
